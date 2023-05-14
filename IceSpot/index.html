@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3477ae541c.js" crossorigin="anonymous"></script>
+    <title>IceSpot</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+        <a href="#home" ><img src="images/logo1.png" alt="IceSpot"></a>
+    </div>
+        <nav class="navbar">
+            <a href="#home"class="let">Home</a>
+            <a href="#gallery"class="let">Gallery</a>
+            <a href="#about"class="let">About</a>
+            <a href="#menu"class="let">Menu</a>
+            <a href="#contact" class="let">Contact</a>
+
+            
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="bars-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+ 
+    </header>
+
+  
+    <!-- home  -->
+
+    <div class="home" id="home">
+        <div class="content">
+            <h1> IceSpot your place to go. </h1>
+                    <p>Feeling Lonely, Sad or Alone? <br>
+                        Its your time to go to IceSpot where just an Ice Cream will make you smile  <br>
+                    </p>
+                    <a href="#menu" class="btn">order now</a>
+                </div>
+    </div>
+    <!-- home  -->
+    <!-- gallery  -->
+    <section class="gallery" id="gallery">
+        <h1 class="headin"><span>Popular Ice Cream</span></h1>
+        <div class="row">
+            <div class="content">
+                <img src="images/over.jpg" alt="image">
+                <h3>Meet Overloaded Spot</h3>
+            </div>
+    
+            <div class="content">
+                <img src="images/oreo.jpg" alt="image">
+                <h3>Meet Oreo</h3>
+            </div>
+    
+            <div class="content">
+                <img src="images/super.jpg" alt="image">
+                    
+                <h3>Meet Superloaded Spot</h3>
+            </div>
+    
+            <div class="content">
+                <img src="images/kiwi.jpg" alt="image">
+                <h3>Meet Kiwi</h3>
+            </div>
+        </div>
+    </section>
+    <!-- /gallery  -->
+    <!-- about  -->
+    <div class="about" id="about">
+        <h1 class="heading"><span>About</span></h1>
+    
+        <div class="row">
+            <div class="image">
+                <img src="images/hero-bg2.jpg" alt="image">
+            </div>
+            <div class="content">
+                <h3>why chose us?</h3>
+                <p>Our ice cream business is dedicated to bringing joy and happiness to people's lives through the love of ice cream. We believe in creating a fun and welcoming atmosphere where families and friends can come together to indulge in our creamy and delicious treats.</p>
+                
+            </div>
+        </div>
+    </div>
+    <!-- /about  -->
+    <!-- menu  -->
+    <section class="menu" id="menu">
+        <h1 class="headings"><span>Menu</span></h1>
+        <div class="row">
+
+            <div class="colm">
+                <div class="images">
+                    <img src="images/oreo.png" onclick="changeImage(images/kiwi.png)">
+
+                </div>
+                <div class="content">
+                    <h3>Meet Favorite Oreo</h3>
+                    <p>Meet our Oreo ice cream that is made from creamy ice cream with original Oreo biscuit pieces. That you will love. 
+                       </p>
+                    <div class="price">
+                        <span>₱150</span> 
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="images">
+                    <img src="images/caramel.png" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Meet Salted Caramel</h3>
+                    <p>
+                        Meet our Salted Caramel Ice Cream that is rich, creamy and smooth but it's also savory and salty. Thank you sea salt!</p>
+                    <div class="price">
+                        <span>₱150</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="images">
+                    <img src="images/peanut.png" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Meet Peanut Butter</h3>
+                    <p>Meet our Peanut Butter Ice Cream that is made for peanut butter lovers, with peanut butter flavored ice cream.</p>
+                    <div class="price">
+                        <span>₱150</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="images">
+                    <img src="images/kiwi.png" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Meet Kiwi</h3>
+                    <p>Meet our Kiwi Ice Cream that is smooth, creamy, tasty and have a fruity flavor for kiwi lover.</p>
+                    <div class="price">
+                        <span>₱180</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="images">
+                    <img src="images/peach.png" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Meet Peach</h3>
+                    <p>Meet our Peach Ice Cream that is creamy and sweet. The sweet taste of peaches and cream shine.</p>
+                    <div class="price">
+                        <span>₱180</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="images">
+                    <img src="images/pomeg.png" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Meet Pomey</h3>
+                    <p>Meet our Pomegranate Ice Cream that tastes sweet and slightly tart which you will love with every bite.</p>
+                    <div class="price">
+                        <span>₱180</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="images">
+                    <img src="images/over.png" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Meet Overloaded </h3>
+                    <p>Meet our Overload Ice Cream where you can add atleast 5 toppings to top your favorite Ice Cream.</p>
+                    <div class="price">
+                        <span>₱280</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="images">
+                    <img src="images/super.png" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Meet Superloaded </h3>
+                    <p>Meet our Superload Ice Cream where you can add 3 flavors of ice cream and any toppings of your choice.</p>
+                    <div class="price">
+                        <span>₱380</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="images">
+                    <img src="images/superduper.png" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Meet SuperOverload</h3>
+                    <p>Meet our Super Overload Ice Cream where there is no limit to make your Great Ice Cream.</p>
+                    <div class="price">
+                        <span>₱499</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- /menu  -->
+    <!-- /review  -->
+    <section class="review" id="review">
+        <h2 class="headin">Customer Review</h2>
+        <div class="row">
+            <div class="box">
+                <div class="images">
+                    <img src="images/customer_1.png" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Park Jimin</h3>
+                    <h3>I love the Ice Cream here</h3>
+                   
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="images">
+                    <img src="images/customer_2.png" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Spencer Serafica</h3>
+                   <h3>Ay nung natikman ko ang ice cream dyan natigil pagmamarites ko </h3>
+                
+            </div>
+            </div>
+
+            <div class="box">
+                <div class="images">
+                    <img src="images/customer_3.png" alt="images">
+                </div>
+                <div class="content">
+                    <h3>Lisa Manoban</h3>
+                    <h3>Look so good , look so sweet, looking good enough to eat</h3>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- review  -->
+   <!-- .contact  -->
+   <section class="contact" id="contact">
+    <div class="headin">
+        <h2>Contact Us</h2>
+        <div></div>
+    </div>
+    <div class="box">
+        <div class="content">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <div>call: +639092094005</div>
+            <div>monday-friday (9am-5pm) </div>
+        </div>
+        <div class="content">
+            <i class="fa-solid fa-envelope"></i>
+            <div>email: IceSpot@gmail.com</div>
+        </div>
+        <div class="content">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>location: Philipppines, Olongapo</div>
+            <div>Sta.Rita</div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="ifarm">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d286.6406747140007!2d120.29511443010395!3d14.849828660261752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339670f5915dd799%3A0x7ddbf564cbae3665!2sSanta%20Rita%2C%20Subic%20Bay%20Freeport%20Zone%2C%20Olongapo%2C%20Zambales!5e0!3m2!1sen!2sph!4v1682280057692!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="form-c">
+            <form action="">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+                <input type="number" placeholder="phone">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message">
+            </form>
+        </div>
+    </div>
+</section>
+<!-- /contact  -->
+<!-- footer  -->
+<footer class="footer">
+    <div class="content">
+
+        <div class="service">
+            <h3>Services</h3>
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div>
+        <h3>Business</h3>
+        <p> Visit and Contact us in our Pages.</p>
+        <div class="shar">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </div>
+    <div class="newsletter-footer">
+        <h3>Subscribe to our newsletter</h3>
+        <form action="#" method="post">
+          <input type="email" placeholder="Enter your email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+</footer>
+<!-- /footer  -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
